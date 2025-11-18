@@ -924,97 +924,97 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
     cursor: pointer;
 }
 </style><body><div id="sk-container-id-3" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LinearRegression()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-3" type="checkbox" checked><label for="sk-estimator-id-3" class="sk-toggleable__label fitted sk-toggleable__label-arrow"><div><div>LinearRegression</div></div><div><a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.7/modules/generated/sklearn.linear_model.LinearRegression.html">?<span>Documentation for LinearRegression</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></div></label><div class="sk-toggleable__content fitted" data-param-prefix="">
-        <div class="estimator-table">
-            <details>
-                <summary>Parameters</summary>
-                <table class="parameters-table">
-                  <tbody>
+<div class="estimator-table">
+    <details>
+        <summary>Parameters</summary>
+        <table class="parameters-table">
+          <tbody>
 
-        <tr class="default">
-            <td><i class="copy-paste-icon"
-                 onclick="copyToClipboard('fit_intercept',
-                          this.parentElement.nextElementSibling)"
-            ></i></td>
-            <td class="param">fit_intercept&nbsp;</td>
-            <td class="value">True</td>
-        </tr>
-
-
-        <tr class="default">
-            <td><i class="copy-paste-icon"
-                 onclick="copyToClipboard('copy_X',
-                          this.parentElement.nextElementSibling)"
-            ></i></td>
-            <td class="param">copy_X&nbsp;</td>
-            <td class="value">True</td>
-        </tr>
+<tr class="default">
+    <td><i class="copy-paste-icon"
+         onclick="copyToClipboard('fit_intercept',
+                  this.parentElement.nextElementSibling)"
+    ></i></td>
+    <td class="param">fit_intercept&nbsp;</td>
+    <td class="value">True</td>
+</tr>
 
 
-        <tr class="default">
-            <td><i class="copy-paste-icon"
-                 onclick="copyToClipboard('tol',
-                          this.parentElement.nextElementSibling)"
-            ></i></td>
-            <td class="param">tol&nbsp;</td>
-            <td class="value">1e-06</td>
-        </tr>
+<tr class="default">
+    <td><i class="copy-paste-icon"
+         onclick="copyToClipboard('copy_X',
+                  this.parentElement.nextElementSibling)"
+    ></i></td>
+    <td class="param">copy_X&nbsp;</td>
+    <td class="value">True</td>
+</tr>
 
 
-        <tr class="default">
-            <td><i class="copy-paste-icon"
-                 onclick="copyToClipboard('n_jobs',
-                          this.parentElement.nextElementSibling)"
-            ></i></td>
-            <td class="param">n_jobs&nbsp;</td>
-            <td class="value">None</td>
-        </tr>
+<tr class="default">
+    <td><i class="copy-paste-icon"
+         onclick="copyToClipboard('tol',
+                  this.parentElement.nextElementSibling)"
+    ></i></td>
+    <td class="param">tol&nbsp;</td>
+    <td class="value">1e-06</td>
+</tr>
 
 
-        <tr class="default">
-            <td><i class="copy-paste-icon"
-                 onclick="copyToClipboard('positive',
-                          this.parentElement.nextElementSibling)"
-            ></i></td>
-            <td class="param">positive&nbsp;</td>
-            <td class="value">False</td>
-        </tr>
+<tr class="default">
+    <td><i class="copy-paste-icon"
+         onclick="copyToClipboard('n_jobs',
+                  this.parentElement.nextElementSibling)"
+    ></i></td>
+    <td class="param">n_jobs&nbsp;</td>
+    <td class="value">None</td>
+</tr>
 
-                  </tbody>
-                </table>
-            </details>
-        </div>
-    </div></div></div></div></div><script>function copyToClipboard(text, element) {
-    // Get the parameter prefix from the closest toggleable content
-    const toggleableContent = element.closest('.sk-toggleable__content');
-    const paramPrefix = toggleableContent ? toggleableContent.dataset.paramPrefix : '';
-    const fullParamName = paramPrefix ? `${paramPrefix}${text}` : text;
 
-    const originalStyle = element.style;
-    const computedStyle = window.getComputedStyle(element);
-    const originalWidth = computedStyle.width;
-    const originalHTML = element.innerHTML.replace('Copied!', '');
+<tr class="default">
+    <td><i class="copy-paste-icon"
+         onclick="copyToClipboard('positive',
+                  this.parentElement.nextElementSibling)"
+    ></i></td>
+    <td class="param">positive&nbsp;</td>
+    <td class="value">False</td>
+</tr>
 
-    navigator.clipboard.writeText(fullParamName)
-        .then(() => {
-            element.style.width = originalWidth;
-            element.style.color = 'green';
-            element.innerHTML = "Copied!";
+          </tbody>
+        </table>
+    </details>
+</div>
+</div></div></div></div></div><script>function copyToClipboard(text, element) {
+// Get the parameter prefix from the closest toggleable content
+const toggleableContent = element.closest('.sk-toggleable__content');
+const paramPrefix = toggleableContent ? toggleableContent.dataset.paramPrefix : '';
+const fullParamName = paramPrefix ? `${paramPrefix}${text}` : text;
 
-            setTimeout(() => {
-                element.innerHTML = originalHTML;
-                element.style = originalStyle;
-            }, 2000);
-        })
-        .catch(err => {
-            console.error('Failed to copy:', err);
-            element.style.color = 'red';
-            element.innerHTML = "Failed!";
-            setTimeout(() => {
-                element.innerHTML = originalHTML;
-                element.style = originalStyle;
-            }, 2000);
-        });
-    return false;
+const originalStyle = element.style;
+const computedStyle = window.getComputedStyle(element);
+const originalWidth = computedStyle.width;
+const originalHTML = element.innerHTML.replace('Copied!', '');
+
+navigator.clipboard.writeText(fullParamName)
+    .then(() => {
+        element.style.width = originalWidth;
+        element.style.color = 'green';
+        element.innerHTML = "Copied!";
+
+        setTimeout(() => {
+            element.innerHTML = originalHTML;
+            element.style = originalStyle;
+        }, 2000);
+    })
+    .catch(err => {
+        console.error('Failed to copy:', err);
+        element.style.color = 'red';
+        element.innerHTML = "Failed!";
+        setTimeout(() => {
+            element.innerHTML = originalHTML;
+            element.style = originalStyle;
+        }, 2000);
+    });
+return false;
 }
 
 document.querySelectorAll('.fa-regular.fa-copy').forEach(function(element) {
