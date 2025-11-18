@@ -1,4 +1,4 @@
-### Level 1: Loading the Required Packages
+### Loading the Required Packages
 
 To proceed with reading the data, performing numerical operations, and visualizing relationships, we need the following libraries:
 
