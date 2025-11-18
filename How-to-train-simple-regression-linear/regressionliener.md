@@ -114,7 +114,6 @@ plt.scatter(df.TV, df.Sales)
 
 
 
-    <matplotlib.collections.PathCollection at 0x711d130f0ef0>
 
 
 
@@ -132,7 +131,6 @@ plt.scatter(df.Radio, df.Sales)
 
 
 
-    <matplotlib.collections.PathCollection at 0x711d1335e3f0>
 
 
 
@@ -150,7 +148,6 @@ plt.scatter(df.Newspaper, df.Sales)
 
 
 
-    <matplotlib.collections.PathCollection at 0x711d132ddeb0>
 
 
 
@@ -245,7 +242,6 @@ plt.scatter(test.TV, test.Sales, color='green')
 
 
 
-    <matplotlib.collections.PathCollection at 0x711d12010980>
 
 
 
@@ -301,7 +297,6 @@ plt.plot(train_x, reg.coef_[0][0] * train_x + reg.intercept_[0], '-g')
 
 
 
-    [<matplotlib.lines.Line2D at 0x711d1213bc50>]
 
 
 
